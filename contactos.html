@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+</head>
+<body>
+
+  <h1>Formulario de Contacto</h1>
+
+  <h2><p><strong>Club Rock La Alpargata</strong></p></h2>
+
+  <form action="#" method="post">
+    <form action="https://formsubmit.co/abraca.074@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+
+
+    <label for="nombre">Nombre completo:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="asunto">Asunto:</label><br>
+    <input type="text" id="asunto" name="asunto"><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br><br>
+
+    <label for="motivo">Motivo de contacto:</label><br>
+    <select id="motivo" name="motivo">
+      <option value="">-- Selecciona una opción --</option>
+      <option value="inscripcion">Cuota</option>
+      <option value="tienda">Compras</option>
+      <option value="reclamacion">Quejas</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
