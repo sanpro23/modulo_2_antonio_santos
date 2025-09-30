@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color</title>
+    <link rel="stylesheet" href="dia-01.css">
+</head>
+
+<body>
+    <button onclick="changeColor()">cambiar color</button>
+    <div id="colorBox">Esto es un div</div>
+
+</body>
+
+</html>
+
+<script>
+    function changeColor() {
+        const colorBox = document.getElementById("colorBox");
+        colorBox.style.backgroundColor = "blue";
+
+    }
+</script>

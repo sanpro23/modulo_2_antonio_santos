@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    text-align: center;
+    margin-top: 50px;   
+}
+
+#colorBox{
+    background-color: rgb(9, 236, 9);
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid black;              
+}
+
+
+
+.blueBackground {
+      background-color: blue;
+    }
